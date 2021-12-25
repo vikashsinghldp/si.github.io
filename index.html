@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html> 
+<head> <title>calculator</title>
+<meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+ 
+<script type="text/javascript">
+ function calculate(){ 
+a = document.getElementById("gt").value;
+b = eval(a);
+alert(b);
+ } </script> 
+</head> 
+<body> 
+<h2> A simple calculator</h2><br>
+<input type="textarea" id="gt"> <br>
+<input type="button" id ="btn" onclick="calculate(); "value="compute" />
+ <style>
+#gt{
+  height: 50px;
+  width: 200px;
+  border:2px solid green;
+  
+}
+#btn{
+  margin:60px 50px;
+  
+}
+</style>
+
+
+</body>
+ </html> 
